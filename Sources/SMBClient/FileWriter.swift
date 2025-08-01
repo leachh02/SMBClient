@@ -183,7 +183,7 @@ public class FileWriter {
         ],
         fileAttributes: [.archive, .normal],
         shareAccess: [.read, .write, .delete],
-        createDisposition: .create,
+        createDisposition: .overwrite,
         createOptions: [],
         name: path
       )
